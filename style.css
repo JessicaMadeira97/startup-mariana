@@ -1,0 +1,159 @@
+body {
+	background-color: rgb(255, 249, 229);
+	font-family: 'Titillium Web', sans-serif;
+}
+
+hr {
+	display: flex;
+	border-color: rgb(248, 220, 122);
+	border-width: 6px;
+	max-width: 30px;
+}
+
+.navbar {
+	background-color: rgb(255, 215, 162);
+}
+
+.navbar-light .navbar-brand {
+	color: rgb(50, 90, 124);
+}
+
+.navbar-brand {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 2rem;
+}
+
+.btn-outline-primary {
+	border-color: rgb(160, 208, 208);
+	color: rgb(160, 208, 208);
+}
+
+.btn-outline-primary:hover {
+	background-color: rgb(160, 208, 208);
+	color: white;
+}
+
+.navbar-nav {
+	margin-right: 0px;
+}
+
+.navbar-collapse {
+	justify-content: space-between;
+}
+
+#queli {
+	justify-self: center;
+	font-family: 'Quicksand', sans-serif;
+	color: rgb(50, 90, 124);
+}
+
+.buffer {
+	height: 50px;
+	background-color: rgb(192, 139, 69);
+}
+
+.buffer-1 {
+	height: 45px;
+	background-color: rgb(255, 249, 229);
+}
+
+.buffer-2 {
+	height: 45px;
+	background-color: rgb(160, 208, 208);
+}
+
+.buffer-3 {
+	height: 20px;
+}
+
+#head {
+	position: relative;
+	padding: 0px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+.child-1 {
+	position: absolute;
+	z-index: 2;
+	align-self: center;
+	font-family:'Dawning of a New Day', cursive;
+}
+
+.child-2 {
+	position: absolute;
+	display: flex;
+	z-index: 1;
+	opacity: 0.7;
+	width: 80%;
+	height: 20%;
+	align-self: center;
+	left: 115px;
+
+}
+
+#welcome {
+	font-size: 3rem;
+	color: rgb(255, 230, 197);
+}
+
+.card-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: justify;
+
+}
+
+.card-title {
+	font-family: 'Bad Script', cursive;
+	color: rgb(192, 161, 69);
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+.btn-primary {
+	background-color: rgb(41, 115, 115);
+	border-color: white;
+	justify-self: flex-end;
+	align-self: center;
+
+}
+
+.btn-primary:hover {
+	background-color: rgb(107, 168, 168);
+	border-color: rgb(41, 115, 115);
+}
+
+#just {
+	text-align: justify;
+	margin-inline-start: 20px;
+	margin-inline-end:  20px;
+}
+
+#center {
+	text-align: center;
+	margin-inline-start: 20px;
+	margin-inline-end:  20px;
+	line-height: 2;
+}
+
+#aboutus {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+a {
+	align-self: center;
+}
+
+.sub {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.sub:hover {
+	border-width: 3px;
+}
